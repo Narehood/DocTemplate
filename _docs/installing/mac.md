@@ -1,6 +1,6 @@
 ---
 title: MacOS
-category: Installing The Bot
+category: Installation
 order: 3
 ---
 
