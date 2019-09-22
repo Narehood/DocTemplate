@@ -1,9 +1,9 @@
 # ----
 # Site
 
-title: Mozart
+title: DocTemplate
 description: The documentation for the original MusicBot for Discord.
-url: "https://narehood.github.io/Mozart/"
+url: "https://narehood.github.io/DocTemplate/"
 logo: 'images/logo.png'
 google_analytics_key: UA-61418431-2
 show_full_navigation: true
