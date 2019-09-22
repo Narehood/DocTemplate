@@ -1,5 +1,5 @@
 ---
-title: tableTempalte
+title: tableTemplate
 category: categoryHere
 order: 6
 ---
