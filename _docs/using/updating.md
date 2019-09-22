@@ -4,9 +4,9 @@ category: categoryHere
 order: 4
 ---
 
-[![GitHub stars](https://img.shields.io/github/stars/Narehood/DocTemplate.svg)](https://github.com/Narehood/DocTemplat/stargazers)
-[![GitHub forks](https://img.shields.io/github/forks/Narehood/MusicBot.svg)](https://github.com/Narehood/DocTemplat/network)
-[![Python version](https://img.shields.io/badge/python-3.5%2C%203.6%2C%203.7-blue.svg)](https://python.org)
+[![GitHub Stars](https://img.shields.io/github/stars/Narehood/DocTemplate.svg)](https://github.com/Narehood/DocTemplat/stargazers)
+[![GitHub Forks](https://img.shields.io/github/forks/Narehood/MusicBot.svg)](https://github.com/Narehood/DocTemplat/network)
+[![Python Version](https://img.shields.io/badge/python-3.5%2C%203.6%2C%203.7-blue.svg)](https://python.org)
 
 > 
 > - Windows: 
