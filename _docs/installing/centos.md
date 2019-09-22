@@ -24,4 +24,3 @@ sudo yum -y update
 sudo yum -y update
 
 ~~~
-{: title="CentOS 7.4" }
