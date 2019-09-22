@@ -1,5 +1,5 @@
 ---
-title: Title_here
-category: Category_here
+title: titleHere
+category: catagoryHere
 order: 1
 ---
