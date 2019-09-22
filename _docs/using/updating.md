@@ -1,32 +1,29 @@
 ---
 title: Updating
-category: Using the bot
+category: categoryHere
 order: 4
 ---
 
-[![GitHub stars](https://img.shields.io/github/stars/Just-Some-Bots/MusicBot.svg)](https://github.com/Just-Some-Bots/MusicBot/stargazers)
-[![GitHub forks](https://img.shields.io/github/forks/Just-Some-Bots/MusicBot.svg)](https://github.com/Just-Some-Bots/MusicBot/network)
+[![GitHub stars](https://img.shields.io/github/stars/Narehood/DocTemplate.svg)](https://github.com/Narehood/DocTemplat/stargazers)
+[![GitHub forks](https://img.shields.io/github/forks/Narehood/MusicBot.svg)](https://github.com/Narehood/DocTemplat/network)
 [![Python version](https://img.shields.io/badge/python-3.5%2C%203.6%2C%203.7-blue.svg)](https://python.org)
 
-> MucicBot version 1.9.8 requires Python 3.5.3 or higher. If you are updating the MusicBot with version below than 1.9.8, reinstall Python with the following version.
-> - Windows: [[Download](https://www.python.org/ftp/python/3.7.0/python-3.7.0.exe)]
-> - Mac: [[Download](https://www.python.org/ftp/python/3.6.6/python-3.6.6-macosx10.6.pkg)]
-> - Linux: Install Python 3.6 and pip using your package manager
+> 
+> - Windows: 
+> - Mac: 
+> - Linux: 
 >
-> If you are updating the MusicBot with version below than 1.9.7-rc2. Please follow instructions in the `Manual update` section.
 
-Before updating, make sure to read the [latest changes](/changelog), as some behaviour may have changed significantly.
 
-* **Linux/MacOS**: `./update.sh` (for Mac users: run this in a Terminal)
-* **Windows**: Open `update.bat`.
-* **Other**: Run `python update.py` on the command line.
+* **Linux/MacOS**: 
+* **Windows**: 
+* **Other**: 
 
 ## Manual update
 
 ```sh
 git reset --hard  # Reset your current working directory
 git pull  # Pull the latest changes from Git
-python -m pip install -U -r requirements.txt  # Update the dependencies
 ```
 
 ### Common problems
@@ -40,5 +37,5 @@ Alternatively, discard your local changes by running `git reset --hard`.
 #### fatal: Not a git repository
 This indicates that you have not installed the bot using Git. To be able to update, you need to install the bot using Git by following the guides on this site.
 
-#### fatal: unable to access 'https://github.com/Just-Some-Bots/MusicBot.git' SSL certificate problem: self signed certificate in certificate chain
+#### fatal: unable to access 'https://github.com/Narehood/Mozart.git' SSL certificate problem: self signed certificate in certificate chain
 Try disabling your antivirus. Some antivirus software (such as Kaspersky Internet Security) is known to interfere with git.
