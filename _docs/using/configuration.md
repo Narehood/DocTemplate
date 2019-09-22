@@ -1,5 +1,5 @@
 ---
-title: titleHere
+title: Configuration
 category: catagoryHere
 order: 1
 ---
