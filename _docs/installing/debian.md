@@ -1,6 +1,6 @@
 ---
 title: Debian
-category: Installing The Bot
+category: Installation
 order: 5
 ---
 
@@ -12,22 +12,4 @@ Installing the bot on Debian is similar to [Ubuntu](/installing/ubuntu), but req
 # Update system repositories
 sudo apt-get update -y
 sudo apt-get upgrade -y
-
-# Install dependencies
-sudo apt-get install git libopus-dev libffi-dev libsodium-dev ffmpeg -y
-sudo apt-get install build-essential libncursesw5-dev libgdbm-dev libc6-dev zlib1g-dev libsqlite3-dev tk-dev libssl-dev openssl -y
-
-# If using Debian Stretch or lower, you need to install Python too using...
-sudo apt-get install python3.5 python3-pip -y
-
-# Clone the MusicBot to your home directory
-cd ~
-git clone https://github.com/Narehood/Mozart.git Mozart -b master
-cd MusicBot
-
-# Install dependencies
-sudo -H python3.5 -m pip install --upgrade pip
-sudo -H python3.5 -m pip install --upgrade -r requirements.txt
 ~~~
-
-After this, you can find a folder called `Mozart` inside your home directory. [Configure]({{ site.baseurl }}/using/configuration) it, and then run `./run.sh` to start the bot.
