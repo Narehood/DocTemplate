@@ -1,6 +1,6 @@
 ---
 title: Arch
-category: Installing The Bot
+category: Installation
 order: 7
 ---
 
@@ -12,16 +12,5 @@ Installation on Arch is **majorly untested and is not officially supported** due
 sudo pacman -Syu
 
 # Install dependencies
-sudo pacman -S git python python-pip opus libffi libsodium ncurses gdbm glibc zlib sqlite tk openssl ffmpeg
 
-# Clone the MusicBot to your home directory
-cd ~
-git clone https://github.com/Narehood/Mozart.git Mozart -b master
-cd MusicBot
-
-# Install dependencies
-sudo pip install --upgrade pip
-sudo pip install --upgrade -r requirements.txt
 ~~~
-
-Once everything has been completed, you can go ahead and [configure]({{ site.baseurl }}/using/configuration) the bot and then run with `sh ./run.sh`.
