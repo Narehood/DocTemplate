@@ -1,2 +1,3 @@
-# DocTemplate
-Github.io Template
+---
+title: Introduction
+---
