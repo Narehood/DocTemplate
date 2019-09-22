@@ -9,24 +9,26 @@ order: 4
 [![Python Version](https://img.shields.io/badge/python-3.5%2C%203.6%2C%203.7-blue.svg)](https://python.org)
 
 > 
+> - Linux: 
 > - Windows: 
 > - Mac: 
-> - Linux: 
+> - Other:
 >
 
 
-* **Linux/MacOS**: 
+* **Linux**: 
 * **Windows**: 
+* **MacOS**:
 * **Other**: 
 
 ## Manual update
 
 ```sh
-git reset --hard  # Reset your current working directory
-git pull  # Pull the latest changes from Git
+all text here will be in a box
 ```
 
 ### Common problems
+
 #### error: Your local changes to the following files would be overwritten by merge
 This indicates that you are trying to pull the latest updates from Git, but you've made changes to the bot's source files yourself. As a result, Git struggles to merge your changes with the bot's changes. To fix this, stash your changes first by running `git stash`, then run `git stash pop` after pulling.
 
