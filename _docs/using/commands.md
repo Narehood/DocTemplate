@@ -1,6 +1,6 @@
 ---
-title: Commands
-category: Title Here
+title: titleHere
+category: categoryHere
 order: 2
 ---
 
@@ -10,4 +10,4 @@ Info about item goes here
 
 #### General
 
-- `!example [command]` - example
+- `!example [highlight]` - example
