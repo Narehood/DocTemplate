@@ -14,7 +14,6 @@ The installation steps for CentOS vary depending on your version of the OS.
 ~~~sh
 # Install dependencies
 sudo yum -y update
-
 ~~~
 
 ## CentOS 7.4
@@ -22,5 +21,4 @@ sudo yum -y update
 ~~~
 # Install dependencies
 sudo yum -y update
-
 ~~~
