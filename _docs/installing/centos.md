@@ -1,6 +1,6 @@
 ---
 title: CentOS
-category: Installing The Bot
+category: Installation
 order: 6
 ---
 
@@ -14,31 +14,7 @@ The installation steps for CentOS vary depending on your version of the OS.
 ~~~sh
 # Install dependencies
 sudo yum -y update
-sudo yum -y groupinstall "Development Tools"
-sudo yum -y install https://centos6.iuscommunity.org/ius-release.rpm
-sudo yum -y install yum-utils opus-devel libffi-devel libsodium-devel python35u python35u-devel python35u-pip
 
-# Install FFmpeg
-sudo rpm --import http://li.nux.ro/download/nux/RPM-GPG-KEY-nux.ro
-sudo rpm -Uvh http://li.nux.ro/download/nux/dextop/el6/x86_64/nux-dextop-release-0-2.el6.nux.noarch.rpm
-sudo yum -y install ffmpeg ffmpeg-devel -y
-
-# Install libsodium from source
-mkdir libsodium && cd libsodium
-curl -o libsodium.tar.gz https://download.libsodium.org/libsodium/releases/LATEST.tar.gz
-tar -zxvf libsodium.tar.gz && cd libsodium-stable
-./configure
-make && make check
-sudo make install
-cd ../.. && rm -rf libsodium
-
-# Clone the Mozart
-git clone https://github.com/Narehood/Mozart.git Mozart -b master
-cd Mozart
-
-# Install bot requirements
-sudo pip3.5 install -U -r requirements.txt
-sudo pip3.5 install -U pynacl
 ~~~
 
 ## CentOS 7.4
@@ -46,22 +22,6 @@ sudo pip3.5 install -U pynacl
 ~~~
 # Install dependencies
 sudo yum -y update
-sudo yum -y groupinstall "Development Tools"
-sudo yum -y install https://centos7.iuscommunity.org/ius-release.rpm
-sudo yum -y install curl opus-devel libffi-devel libsodium-devel python35u python35u-devel python35u-pip
 
-# Install FFmpeg
-sudo rpm --import http://li.nux.ro/download/nux/RPM-GPG-KEY-nux.ro
-sudo rpm -Uvh http://li.nux.ro/download/nux/dextop/el7/x86_64/nux-dextop-release-0-5.el7.nux.noarch.rpm
-sudo yum -y install ffmpeg ffmpeg-devel -y
-
-# Clone the Mozart
-git clone https://github.com/Narehood/Mozart.git Mozart -b master
-cd Mozart
-
-# Install bot requirements
-sudo python3.5 -m pip install -U -r requirements.txt
 ~~~
 {: title="CentOS 7.4" }
-
-Once everything has been completed, you can go ahead and [configure]({{ site.baseurl }}/using/configuration) the bot and then run with `sudo ./run.sh`.
