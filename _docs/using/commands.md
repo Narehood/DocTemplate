@@ -4,8 +4,7 @@ category: Title Here
 order: 2
 ---
 
-Info about item goes here [configured]({{ site.baseurl }}/using/configuration). 
-
+Info about item goes here 
 
 
 
