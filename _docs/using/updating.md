@@ -37,5 +37,5 @@ Alternatively, discard your local changes by running `git reset --hard`.
 #### fatal: Not a git repository
 This indicates that you have not installed the bot using Git. To be able to update, you need to install the bot using Git by following the guides on this site.
 
-#### fatal: unable to access 'https://github.com/Narehood/Mozart.git' SSL certificate problem: self signed certificate in certificate chain
+#### fatal: unable to access 'https://github.com/Narehood/DocTempalte.git' SSL certificate problem: self signed certificate in certificate chain
 Try disabling your antivirus. Some antivirus software (such as Kaspersky Internet Security) is known to interfere with git.
